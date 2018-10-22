@@ -123,8 +123,12 @@ class InfiniteObject {
 		return Infinite(this.value.times(value))
 	}
 
-	round(value) {
+	round(value=0) {
 		return Infinite(this.value.round(value))
+	}
+
+	floor(value=0) {
+		return Infinite(this.value.round(value, 0))
 	}
 
 	toString() {
