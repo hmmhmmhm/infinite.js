@@ -1,0 +1,40 @@
+{
+  "name": "infinite.js",
+  "version": "1.0.0",
+  "description": "Big integer & Big decimal arithmetic regular expression module",
+  "main": "infinite.js",
+  "scripts": {
+    "lint": "eslint infinite.js example.js --fix",
+    "test": "node ./node_modules/babel-cli/bin/babel-node.js ./example.js"
+  },
+  "author": "hmmhmmhm",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "hmmhmmhm",
+      "email": "hmmhmmhm@naver.com"
+    }
+  ],
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-overload": "0.0.2"
+  },
+  "keywords": [
+    "arbitrary",
+    "precision",
+    "arithmetic",
+    "big",
+    "number",
+    "decimal",
+    "float",
+    "biginteger",
+    "bigdecimal",
+    "bignumber",
+    "bigint",
+    "bignum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmmhmmhm/infinite.js"
+  }
+}
