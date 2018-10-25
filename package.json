@@ -1,11 +1,10 @@
 {
   "name": "infinite.js",
   "version": "1.0.0",
-  "description": "Big integer & Big decimal arithmetic regular expression module",
+  "description": "infinite.js helps the easy use of big integer and big decimal in node.js",
   "main": "infinite.js",
   "scripts": {
-    "lint": "eslint infinite.js example.js --fix",
-    "test": "node ./node_modules/babel-cli/bin/babel-node.js ./example.js"
+    "lint": "eslint infinite.js example.js --fix"
   },
   "author": "hmmhmmhm",
   "license": "MIT",
@@ -16,8 +15,10 @@
     }
   ],
   "dependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-plugin-overload": "0.0.2"
+    "babel-plugin-overload": "^0.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
   },
   "keywords": [
     "arbitrary",

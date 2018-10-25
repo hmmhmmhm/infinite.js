@@ -38,39 +38,7 @@ class InfiniteObject {
 	}
 
 	[Symbol.for("**")](rightOperand) {
-		if (typeof rightOperand.value != "undefined")
-			return Infinite(this.value.pow(Big(rightOperand.value)))
-		return Infinite(this.value.pow(Big(rightOperand)))
-	}
-
-	[Symbol.for("+=")](rightOperand) {
-		this.value = rightOperand.plus(this.value)
-		return this
-	}
-
-	[Symbol.for("-=")](rightOperand) {
-		this.value = rightOperand.minus(this.value)
-		return this
-	}
-
-	[Symbol.for("*=")](rightOperand) {
-		this.value = rightOperand.mul(this.value)
-		return this
-	}
-
-	[Symbol.for("/=")](rightOperand) {
-		this.value = rightOperand.div(this.value)
-		return this
-	}
-
-	[Symbol.for("%=")](rightOperand) {
-		this.value = rightOperand.mod(this.value)
-		return this
-	}
-
-	[Symbol.for("^=")](rightOperand) {
-		this.value = rightOperand.pow(Big(this.value))
-		return this
+		return Infinite(this.value.pow(Number(rightOperand)))
 	}
 
 	[Symbol.for(">")](rightOperand) {
@@ -137,6 +105,10 @@ class InfiniteObject {
 
 	toString() {
 		return String(this.value)
+	}
+
+	toNumber() {
+		return Number(this.value)
 	}
 
 	toBig() {
