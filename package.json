@@ -1,6 +1,6 @@
 {
   "name": "infinite.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "infinite.js helps the easy use of big integer and big decimal in node.js",
   "main": "infinite.js",
   "scripts": {
