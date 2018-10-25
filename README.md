@@ -140,7 +140,7 @@ Installation of the babel in the npm project must precede.
 
 If you already have a babel setting, please proceed to one of the following.
 
-- Write `{plugins: "overload"}` on `.babelrc`
+- Write `{"plugins": "overload"}` on `.babelrc`
 - In a CLI environment, such as `babel-node`, you can attach `--plugins overload` to the back.
 
 ## I've never used a Babel. How can I use it?
@@ -151,7 +151,7 @@ You can follow these basic settings for writing libraries.
 - `npm install babel-cli --save`
 - Please add the following command to the package.json.
 - `"start": "node ./node_modules/babel-cli/bin/babel-node.js ./index.js"`
-- In the project folder, Create a file called '.babelrc' and write '{plugins: ["overload"]} in it.
+- In the project folder, Create a file called `.babelrc` and write `{"plugins": ["overload"]}` in it.
 - Now operator override is applied when executing `npm run start`
 
 ## License
