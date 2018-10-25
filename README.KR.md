@@ -128,7 +128,7 @@ npm 프로젝트 내 babel 의 설치가 반드시 선행되어야 합니다.
 
 이미 사용하고 계신 바벨세팅이 있다면 아래 중 하나를 진행해주시면 됩니다.
 
-- `.babelrc` 에 `{plugins: ["overload"]}` 를 적어주시거나
+- `.babelrc` 에 `{"plugins": ["overload"]}` 를 적어주시거나
 - `babel-node` 와 같은 CLI환경에선  `--plugins overload` 를 뒤에 붙여주시면 됩니다.
 
 ## Babel 을 써본 적이 없는데 어떻게 쓰나요?
@@ -139,7 +139,7 @@ infinite.js 를 사용하려면 Babel 라이브러리가 꼭 필요합니다.
 - `npm install babel-cli --save`
 - package.json 에 다음과 같은 명령어를 추가해주세요.
 - `"start": "node ./node_modules/babel-cli/bin/babel-node.js ./index.js"`
-- 프로젝트 폴더에 `.babelrc` 파일을 만들고 `{plugins: ["overload"]}` 를 적어주세요.
+- 프로젝트 폴더에 `.babelrc` 파일을 만들고 `{"plugins": ["overload"]}` 를 적어주세요.
 - 이제 `npm run start` 로 실행 시 연산자 오버라이딩이 적용되어 실행됩니다.
 
 ## 저작권

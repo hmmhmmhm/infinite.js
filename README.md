@@ -2,7 +2,7 @@
 
 infinite.js helps the easy use of big integer and big decimal in node.js
 
-[한국어 문서는 요깄어영](https://github.com/hmmhmmhm/infinite.js/README.KR.md)
+[한국어 문서는 요깄어영](https://github.com/hmmhmmhm/infinite.js/blob/master/README.md)
 
 ## Introducion
 
